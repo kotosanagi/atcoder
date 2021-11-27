@@ -17,8 +17,8 @@ create_each_prob () {
     touch    $PWD"/"$TITLE_PROB"/"$1"/"$1".py"
     mkdir -p $PWD"/"$TITLE_PROB"/"$1"/input"
     mkdir -p $PWD"/"$TITLE_PROB"/"$1"/output"
-    touch    $PWD"/"$TITLE_PROB"/"$1"/input/input_XX"
-    touch    $PWD"/"$TITLE_PROB"/"$1"/output/output_XX"
+    touch    $PWD"/"$TITLE_PROB"/"$1"/input/input_01"
+    touch    $PWD"/"$TITLE_PROB"/"$1"/output/output_01"
 }
 
 

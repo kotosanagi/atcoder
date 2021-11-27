@@ -5,7 +5,7 @@
 # （例えば以下のディレクトリ）にいるとき、
 # /home/koto/study_python/atcoder/abc-228/a
 # 以下のように呼び出すこと
-# ../../watch_python_file a.py 01
+# ../../watch_python_file.sh a.py 01
 ########################################
 
 # 引数1つ目は監視対象のファイル名

@@ -5,13 +5,13 @@
 # （例えば以下のディレクトリ）にいるとき、
 # /home/koto/study_python/atcoder/abc-228/a
 # 以下のように呼び出すこと
-# ../../watch_output_file 01
+# ../../watch_output_file.sh 01
 ########################################
 
 
 # 引数1つ目はテストケース番号(01,02など)
 WATCHED_OUTPUT_FILE=$PWD"/output/output_"$1
-
+INPUT_FILE=$PWD"/input/input_"$1
 
 # color def
 ESC=$(printf '\033') RESET="${ESC}[0m"
@@ -45,7 +45,13 @@ while true; do
         echo UPDATED OUTPUT_$1 !!!!
         date
         # input をcat
-        echo "OUTPUT :"
+        echo -n "INPUT :"
+        echo $YELLOW
+        cat $INPUT_FILE
+        echo $DEFAULT
+        echo
+        # output をcat
+        echo -n "OUTPUT :"
         echo $GREEN
         cat $WATCHED_OUTPUT_FILE
         echo $DEFAULT
