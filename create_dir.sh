@@ -18,7 +18,13 @@ create_each_prob () {
     mkdir -p $PWD"/"$TITLE_PROB"/"$1"/input"
     mkdir -p $PWD"/"$TITLE_PROB"/"$1"/output"
     touch    $PWD"/"$TITLE_PROB"/"$1"/input/input_01"
+    touch    $PWD"/"$TITLE_PROB"/"$1"/input/input_02"
+    touch    $PWD"/"$TITLE_PROB"/"$1"/input/input_03"
+    touch    $PWD"/"$TITLE_PROB"/"$1"/input/input_04"
     touch    $PWD"/"$TITLE_PROB"/"$1"/output/output_01"
+    touch    $PWD"/"$TITLE_PROB"/"$1"/output/output_02"
+    touch    $PWD"/"$TITLE_PROB"/"$1"/output/output_03"
+    touch    $PWD"/"$TITLE_PROB"/"$1"/output/output_04"
 }
 
 
